@@ -6,8 +6,9 @@ Domain parser for IPAddress.com Reverse IP Lookup
 - requests
 - urllib3
 - argparse
+- art
 
-Tested on **Debian** with **Python 3.10.8**
+Tested on **Debian 11.6/HackTrack Linux RC14** with **Python 3.9.2**
 
 ## How to Use
 Help Menu
@@ -25,7 +26,7 @@ Reverse IP
 python3 reverseip.py -t google.com
 ```
 ## Screenshot
-![ReverseIP](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM4Z6zSF5yjADs6toEeqYSJs71tGp-8H-E4t0udDQ5qUBqHXOa5fFaUGowEvVSpKw5vSeuBPaGwRrDOsl3TxYB2P9MYC-5gWw9ued2E4iFWybbJz_yiargjToQpYMnalQtiQja7kVOmc1nQfsHLc7xB2wh_BHZ1NWOUABHOYGh0wdCkApkoEl7GvfH0A/s742/reverse-ip.png "ReverseIP")
+![ReverseIP](https://raw.githubusercontent.com/hacktrackgnulinux/reverseip/main/screenshot.png "ReverseIP")
 
 ## Disclaimer
 Any actions and or activities related to the material contained within this tool is solely your responsibility.The misuse of the information in this tool can result in criminal charges brought against the persons in question.
