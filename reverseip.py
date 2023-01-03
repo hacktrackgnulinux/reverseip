@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#! /usr/bin/env python3
 import sys
 import urllib3
 import argparse
@@ -8,7 +8,12 @@ from bs4 import BeautifulSoup as bs
 import sys
 import re
 import io
-
+# import module
+from art import *
+  
+# random large text to art representation 
+# This art will be random every time
+tprint("ReverseIP","retro-large")
 urllib3.disable_warnings()
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', '--target', metavar='target.com', type=str, help='Target domain or IP')
@@ -24,7 +29,7 @@ def argscheck():
     elif ip_target == None:
         parser.print_help(sys.stderr)
         print()
-        print(f"Error: Domain list is mandatory")
+        print(f"Error: Target is mandatory")
         sys.exit(1)
     elif "://" in ip_target:       
         print(f"Input only IP or domain. Example: target.com")
