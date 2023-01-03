@@ -1,5 +1,6 @@
-# Reverse IP
-Domain parser for IPAddress.com Reverse IP Lookup
+# Reverse IP  
+Domain parser for IPAddress.com Reverse IP Lookup  
+Author:  yuyudhn Github: https://github.com/yuyudhn/  
 
 ## Requirements
 - beautifulsoup4
